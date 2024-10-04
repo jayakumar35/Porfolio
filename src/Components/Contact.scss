@@ -1,0 +1,88 @@
+.contact-container{
+.contact{
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
+    position: relative;
+    padding: 30px;
+}
+
+
+    .cont-h3{
+        color:white;
+        font-weight: 200;
+        padding-left: 30%;
+        padding-bottom: 2%;
+      
+
+        
+    } 
+    .cont-h1{
+        
+        text-align: start;
+        color: aliceblue;
+        font-size: 6rem;
+        font-weight: bold;
+        padding-left: 20%;
+    }
+    .cont-btn{
+        margin-left: 30%;
+        padding: 15px 30px;
+        background-image: linear-gradient(120deg, #10ccf6, #4c9391af);
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        box-shadow: 2px 2px 5px #666;
+
+    }
+    .cont-btn:hover{
+        transform: scale(1.05);
+    }
+    .foodter{
+         background-image: url('../image/frent.jpg');
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+    }
+    .foodlist{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding-top: 100px;
+    }
+    .list1 li{
+        color: #999;
+        font-size: 25px;
+        padding: 5px;
+    
+    }
+    .list2 li{
+        color: #999;
+        font-size: 25px;
+        padding: 5px; 
+        margin-left: 80px;  
+    }
+    .conticon{
+        color: #999;
+        font-size: 20px;
+        margin-left: 100px;
+       
+    
+    }
+    .conticon i{
+        padding: 10px;
+        transition: .3s;
+    }
+    .conticon i:hover{
+        color: white;
+        cursor: pointer;
+        transform: translateY(-10px);
+    }
+    p{
+        color: #999;
+        font-size: 18px;
+        padding: 15px; 
+        margin-left: 25px;
+    }
+}

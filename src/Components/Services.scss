@@ -1,0 +1,56 @@
+.services-container {
+    margin-top: 10%;
+    background: #f7fafa;
+
+    .services-row {}
+
+    .services-col h1 {
+        font-size: 4rem;
+        font-weight: bolder;
+        text-align: start;
+        background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)',GradientType=1 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+
+    .card {
+        border: none;
+        background: #f7fafa;
+
+    }
+
+    .card :hover {
+        background-image: linear-gradient(90deg, #f61b10, #ef0963);
+        color: #fff;
+        transform: translateY(-2px);
+        border-radius: 5px;
+
+    }
+
+    .card-titel {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+
+    }
+
+    svg {
+        color: #f61b10;
+        font-size: 55px;
+        font-weight: 100;
+        margin-bottom: 15px;
+        stroke-width: 1 !important;
+    }
+    
+
+    .card:hover svg {
+        color: #fff;
+    }
+}
