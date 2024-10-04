@@ -21,7 +21,7 @@ function About() {
       <Row >
         <Col sm={12} md={12} lg={6}>
           <div className="About-img">
-            <img src={Aboutimage} />
+            <img src={Aboutimage}  alt="About"/>
           </div>
 
         </Col>
