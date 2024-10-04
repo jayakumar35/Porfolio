@@ -1,6 +1,6 @@
 import React from "react";
 import './About.scss';
-import About1image from '../image/about1.JPG'
+import Aboutimage from '../image/about1.JPG'
 import Githupimage from '../image/github.png'
 import Linkedinimage from '../image/linkedin.png'
 import Instagramimage from '../image/instagram.png'
@@ -21,7 +21,7 @@ function About() {
       <Row >
         <Col sm={12} md={12} lg={6}>
           <div className="About-img">
-            <img src={About1image} />
+            <img src={Aboutimage} />
           </div>
 
         </Col>
