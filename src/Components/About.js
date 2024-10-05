@@ -9,25 +9,23 @@ import Youtubeimage from '../image/youtube-white-logo.png'
 import Facebookimage from '../image/facebook.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col'; 
+import Col from 'react-bootstrap/Col';
 import { Link } from "react-router-dom";
 
 
 function About() {
   return (
     <Container id="About" className="about-container" fluid>
-      
-
       <Row >
         <Col sm={12} md={12} lg={6}>
           <div className="About-img">
-            <img src={Aboutimage}  alt="About"/>
+            <img src={Aboutimage} alt="About" />
           </div>
 
         </Col>
         <Col sm={12} md={12} lg={6}>
           <div className="about-datails">
-          <h1 >About Me</h1>
+            <h1 >About Me</h1>
             <p><b>Hello! I'm Jayakumar</b> web designer from TamilNadu,Tiruvannamala i have rich experience in web site desing and building
               also i am good at wordpress i love to talk with you about our unique</p>
             <button class="btncv"><a className="rebtn" href="src/jayakumar resume.pdf">Resume</a></button>
@@ -47,10 +45,6 @@ function About() {
               <a href="https://www.youtube.com/@Jksquad53"><img src={Youtubeimage} /></a>
               <a href="https://www.facebook.com/profile.php?id=100012086977710"><img src={Facebookimage} /></a>
             </div>
-      
-
-
-
           </div>
         </Col>
       </Row>

@@ -1,7 +1,8 @@
-.about-container {  
-      // font-family: Poppins, sans-serif;
+.about-container {
 
-   
+    // font-family: Poppins, sans-serif;
+
+
 
     .About-img img {
         position: absolute;
@@ -19,28 +20,25 @@
         }
     }
 
-    .about-datails {
-    
-    }
-     .about-datails h1 {
+    .about-datails {}
+
+    .about-datails h1 {
         font-size: 4rem;
-         font-weight: bolder;
+        font-weight: bolder;
         text-align: start;
         background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)',GradientType=1 );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)', GradientType=1);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         display: inline-block;
-    
-    }
 
+    }
     .about-datails p {
-        
+
         font-size: 1.4rem;
         font-weight: 400;
 
     }
-
     .about-datails button {
         margin-left: 15px;
         background: rgb(30, 157, 255);
@@ -52,7 +50,8 @@
         border: none;
 
     }
-    .about-datails button:hover{
+
+    .about-datails button:hover {
         cursor: pointer;
         transform: scale(1.1);
     }
@@ -76,4 +75,75 @@
 
 
 
+}
+
+// -----------------------media Size------
+@media (min-width:320px) and (max-width:769px) {
+    .about-container {
+        background: #f6fdfc;
+       padding: 20px;
+    
+       .About-img img {
+        display: none;
+           
+        }
+        .about-datails{
+            margin-left: 15px;
+        }
+    
+        .about-datails h1 {
+            font-size: 3.2rem;
+            font-weight: bolder;
+            text-align: start;
+            background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)', GradientType=1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+    
+        }
+        .about-datails p {
+    
+            font-size: 1.1rem;
+            font-weight: 400;
+    
+        }
+        .about-datails button {
+            margin-left: 15px;
+            background: rgb(30, 157, 255);
+            color: white;
+            padding: 5px 10px;
+            font-size: 0.7rem;
+            font-weight: 550;
+            border-radius: 5px;
+            border: none;
+    
+        }
+    
+        .about-datails button:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    
+        .about-datails .rebtn {
+            color: #ffff;
+            text-decoration: none;
+        }
+    
+        .about-datails img {
+            width: 30px;
+            height: 30px;
+            margin-left: 15px;
+            transition: .2s;
+        }
+    
+        .about-datails img:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    
+    
+    
+    }  
+    
 }

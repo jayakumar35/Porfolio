@@ -18,7 +18,6 @@ function NavScrollExample() {
             <Nav.Link  className='mx-4 ' href="#Home">Home</Nav.Link>
             <Nav.Link  className='mx-4' href="#About">About</Nav.Link>
             <Nav.Link  className='mx-4' href="#Project">Project</Nav.Link>
-            <Nav.Link  className='mx-4' href="#Skills">Skills</Nav.Link>
             <Nav.Link  className='mx-4' href="#Contact">Contact</Nav.Link>
 
           </Nav>

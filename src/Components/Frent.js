@@ -23,24 +23,29 @@ function Frent(){
           <Link to="/contactpage">
             <button className="cont-btn">CONTACT US</button>
           </Link>
-
-                    <div className="home-cord d-flex">
-                        <div className="cord">
-                        <img src={icon1}/>
+          </Col>
+          <Col sm={12} md={12} lg={4}>
+          <div className="home-card ">
+                        <div className="card">
+                        <img src={icon1}  alt="icon"/>
                         <h3>Website Development</h3>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                         </div>
-                        <div className="cord">
-                        <img src={icon2}/>                        <h3>Business Stratagy</h3>
+                        <div className="card">
+                        <img src={icon2}  alt="icon"/>                        <h3>Business Stratagy</h3>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                         </div>
-                        <div className="cord">
-                        <img src={icon3}/>                     
+                        <div className="card">
+                        <img src={icon3} alt="icon"/>                     
                         <h3>Marketing & Reporting</h3>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                         </div>
                     </div>
-                </Col>
+          
+
+          </Col>
+
+                         
             </Row>
         </Container>
     )

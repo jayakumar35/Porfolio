@@ -2,7 +2,7 @@ import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import contactpage from '../image/contactpage.jpg';
 import contcall from '../image/contcall.jpeg'
 import './ContactPage.scss'
-import Contact from './Contact'
+import Contact from "./Contact";
 
 
 function Contactpage() {
@@ -22,16 +22,27 @@ function Contactpage() {
                 </Col>
             </Row>
             <Row className="contbox ">
-                <Col sm={4} md={6} lg={4} className="cont-box" >
+            <Col sm={4} md={6} lg={4}>
                     <Card style={{ width: '23rem', height: '28vh' }} className="card">
                         <Card.Body>
-                            <Card.Title className="titel">Contact With Phone Number</Card.Title>
+                            <Card.Title className="titel" >Email Address</Card.Title>
                             <Card.Text>
-                                <p>+91-9626295154</p>
-                                <p>044-252421</p>
+                                <p>jayakumar53c@gmail.com</p>
+                                <p>admindevjai@gmail.com</p>
                             </Card.Text>
                             <i class="fa-solid fa-headphones"></i>
                         </Card.Body>
+                    </Card>
+
+                </Col>                <Col sm={4} md={6} lg={4}>
+                    <Card style={{ width: '23rem', height: '28vh' }} className="card">
+                        <Card.Body>
+                            <Card.Title className="titel" >Email Address</Card.Title>
+                            <Card.Text>
+                                <p>jayakumar53c@gmail.com</p>
+                                <p>admindevjai@gmail.com</p>
+                            </Card.Text>
+                            <i class="fa-regular fa-envelope"></i>                       </Card.Body>
                     </Card>
 
                 </Col>
@@ -43,24 +54,11 @@ function Contactpage() {
                                 <p>jayakumar53c@gmail.com</p>
                                 <p>admindevjai@gmail.com</p>
                             </Card.Text>
-                            <i class="fa-regular fa-envelope"></i>
-                        </Card.Body>
-                    </Card>
-
-                </Col>
-                <Col sm={4} md={6} lg={4}>
-                    <Card style={{ width: '23rem', height: '28vh' }} className="card">
-                        <Card.Body>
-                            <Card.Title className="titel">Location</Card.Title>
-                            <Card.Text className="card-text">
-                                <p>2/342 2 Street Kumar Nahar Tirupur</p>
-                            </Card.Text >
                             <i class="fa-solid fa-location-dot"></i>
                         </Card.Body>
                     </Card>
 
-                </Col>
-            </Row>
+                </Col>            </Row>
             <Row className="contactform-row">
                 <Col sm={6} md={6} lg={6}>
                     <div className="contactform">
@@ -93,11 +91,11 @@ function Contactpage() {
             </Row>
             <Row>
                 <Col>
-                <Contact/>
+                  <Contact/>
                 </Col>
             </Row>
 
-        </Container>
+       </Container>
     )
 }
 export default Contactpage;

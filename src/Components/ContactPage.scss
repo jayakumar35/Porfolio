@@ -102,7 +102,7 @@
     padding-top: 10%;
 
     .contactform {
-    padding-left: 15%;
+        padding-left: 15%;
 
     }
 
@@ -117,14 +117,163 @@
         font-size: 20px;
         font-weight: 450;
     }
-    .input{
+
+    .input {
         padding: 12px;
-        
+
     }
-    .contactform-img img{
-     width: 80%;
-     border-radius: 10px;
-     margin-top: 15px;
+
+    .contactform-img img {
+        width: 80%;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+}
+
+// media Size -------
+
+@media (min-width:320px) and (max-width:769px) {
+
+    .contactpage {
+        max-width: max-content;
+        max-height: fit-content;
+        overflow: hidden;
+        position: relative;
+
+        .cont-img {
+            filter: brightness(25%);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+
+        }
+
+        h2 {
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            font-size: 25px;
+            font-weight: 400;
+            color: #fff;
+            padding-bottom: 25px;
+        }
+
+        h1 {
+            position: absolute;
+            top: 35%;
+            left: 8%;
+            font-size: 5rem;
+            overflow: hidden;
+            font-weight: bold;
+            background: linear-gradient(145deg, #f81f01, #ee076e);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)', GradientType=1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+
+        }
+
+        h4 {
+            position: absolute;
+            top: 68%;
+            left: 5%;
+            font-size: 22px;
+            color: #fff;
+        }
+
+
+
+    }
+
+    .contbox {
+        padding-left: 0;
+
+        width: 100px;
+        position: relative;
+        max-width: max-content;
+        max-height:max-content;
+        margin-top: 50px;
+
+        .card {
+            max-width: max-content;
+            max-height: fit-content;
+            margin-top: 55px;
+
+            border: none;
+            box-shadow: 2px 2px 5px #999;
+        }
+
+        .titel {
+            // font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 500;
+            text-align: start;
+            padding-left: 15px;
+        }
+
+        i {
+            position: absolute;
+            top: -40px;
+            color: #f81f01;
+            width: 75px;
+            height: 75px;
+            font-size: 28px;
+            text-align: center;
+            padding-top: 22px;
+            border-radius: 60%;
+            background: #fff;
+            box-shadow: 1px 1px 3px #999;
+        }
+
+        .card:hover i {
+            background: #fd4766;
+            color: #fff;
+        }
+
+        //contact Form
+
+    }
+
+    .contactform-row {
+        padding-top: 10%;
+
+        .contactform {
+            padding-left: 15%;
+
+        }
+
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 450;
+        }
+
+        .input {
+            padding: 12px;
+
+        }
+
+        .contactform-img img {
+           max-width: max-content;
+           max-height: fit-content;
+            border-radius: 10px;
+            margin-top: 25px;
+            margin-left: 35px;
+        }
+
     }
 
 }
