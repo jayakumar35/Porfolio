@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import './Ourworkpage.scss';
 import Ourimage from '../image/frent.jpg';
 import Weatherimage from '../image/project/Weather.jpg'
@@ -16,7 +16,7 @@ function Ourworkpage() {
                 <Col sm={12} md={12} lg={12}>
                     <div className="ourworkpage">
                         <div className="our-img">
-                            <img src={Ourimage} fluid />
+                            <img src={Ourimage} alt="OurImage" fluid />
                         </div>
                         <h2>W E L C O M E</h2>
                         <h1>OurWork</h1>

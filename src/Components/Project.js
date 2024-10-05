@@ -2,7 +2,6 @@ import React from "react";
 import './Project.scss';
 
 import { Container, Row, Col } from "react-bootstrap";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 import Weatherimage from '../image/project/Weather.jpg'

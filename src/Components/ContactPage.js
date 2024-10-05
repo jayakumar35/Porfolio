@@ -12,7 +12,7 @@ function Contactpage() {
                 <Col sm={12} md={12} lg={12}>
                     <div className="contactpage">
                         <div className="cont-img">
-                            <img src={contactpage} fluid />
+                            <img src={contactpage} alt="Contactpage" fluid />
                         </div>
                         <h2>W E L C O M E</h2>
                         <h1>Contact With Us</h1>
@@ -34,7 +34,8 @@ function Contactpage() {
                         </Card.Body>
                     </Card>
 
-                </Col>                <Col sm={4} md={6} lg={4}>
+                </Col>             
+                   <Col sm={4} md={6} lg={4}>
                     <Card style={{ width: '23rem', height: '28vh' }} className="card">
                         <Card.Body>
                             <Card.Title className="titel" >Email Address</Card.Title>
@@ -85,7 +86,7 @@ function Contactpage() {
                     </div>
                 </Col>
                 <Col sm={6} md={6} lg={6} className="contactform-img">
-                    <img src={contcall} fluid />
+                    <img src={contcall}  alt="Contact call"fluid />
 
                 </Col>
             </Row>
