@@ -34,7 +34,7 @@ function Ourworkpage() {
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
                                     <Card.Title className="h3">Weather</Card.Title>
-                                    <a href="">Check Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="#">Check Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     <p>Some quick example text to build on the card title and make up the
                                         bulk of the card's content.</p>
                                 </Card.Text>
@@ -50,7 +50,7 @@ function Ourworkpage() {
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
                                     <Card.Title className="h3">Bmi Calcution</Card.Title>
-                                    <a href="">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="#">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     <p>Some quick example text to build on the card title and make up the
                                         bulk of the card's content.</p>
                                 </Card.Text>
@@ -66,7 +66,7 @@ function Ourworkpage() {
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
                                     <Card.Title className="h3">TodoList</Card.Title>
-                                    <a href="">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="#">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     <p>Some quick example text to build on the card title and make up the
                                         bulk of the card's content.</p>
                                 </Card.Text>
@@ -85,7 +85,7 @@ function Ourworkpage() {
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
                                     <Card.Title className="h3">Weather</Card.Title>
-                                    <a href="">Check Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="#">Check Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     <p>Some quick example text to build on the card title and make up the
                                         bulk of the card's content.</p>
                                 </Card.Text>
@@ -101,7 +101,7 @@ function Ourworkpage() {
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
                                     <Card.Title className="h3">Bmi Calcution</Card.Title>
-                                    <a href="">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="#">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     <p>Some quick example text to build on the card title and make up the
                                         bulk of the card's content.</p>
                                 </Card.Text>
@@ -117,7 +117,7 @@ function Ourworkpage() {
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
                                     <Card.Title className="h3">TodoList</Card.Title>
-                                    <a href="">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="#">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     <p>Some quick example text to build on the card title and make up the
                                         bulk of the card's content.</p>
                                 </Card.Text>
