@@ -40,12 +40,12 @@ function About() {
               <p><b>Country</b> - India</p>
             </div>
             <div class="social-media">
-              <a href="https://github.com/jayakumar35"><img src={Githupimage} /></a>
-              <a href="https://www.linkedin.com/in/jayakumar3598/"><img src={Linkedinimage} /></a>
-              <a href="https://www.instagram.com/j_a_y_a_k_u_m_a_r_53/"><img src={Instagramimage} /></a>
-              <a href="https://x.com/jayakumar3598"><img src={Xtwitterimage} /></a>
-              <a href="https://www.youtube.com/@Jksquad53"><img src={Youtubeimage} /></a>
-              <a href="https://www.facebook.com/profile.php?id=100012086977710"><img src={Facebookimage} /></a>
+              <a href="https://github.com/jayakumar35"><img src={Githupimage} alt="githup" /></a>
+              <a href="https://www.linkedin.com/in/jayakumar3598/"><img src={Linkedinimage}  alt="linkedin"/></a>
+              <a href="https://www.instagram.com/j_a_y_a_k_u_m_a_r_53/"><img src={Instagramimage} alt="instagram" /></a>
+              <a href="https://x.com/jayakumar3598"><img src={Xtwitterimage} alt="x" /></a>
+              <a href="https://www.youtube.com/@Jksquad53"><img src={Youtubeimage} alt="youtube" /></a>
+              <a href="https://www.facebook.com/profile.php?id=100012086977710"><img src={Facebookimage} alt="facebook" /></a>
             </div>
           </div>
         </Col>
