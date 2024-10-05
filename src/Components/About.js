@@ -29,7 +29,9 @@ function About() {
             <p><b>Hello! I'm Jayakumar</b> web designer from TamilNadu,Tiruvannamala i have rich experience in web site desing and building
               also i am good at wordpress i love to talk with you about our unique</p>
             <button class="btncv"><a className="rebtn" href="src/jayakumar resume.pdf">Resume</a></button>
-            <Link to="/ContactPage"><button class="btncv mx-3"><a href=""></a>Contact Me</button></Link>
+            <Link to="/ContactPage">
+            <button class="btncv mx-3">Contact Me</button>
+            </Link>
             <div class="details">
               <p><b>Age</b>    - 26</p>
               <p><b>Birth</b>  - 03/may/1998</p>
