@@ -5,10 +5,17 @@ import Weatherimage from '../image/project/Weather.jpg'
 import Bmiimage from '../image/project/Bmi.jpg'
 import Todoimage from '../image/project/Todolist.jpg'
 import Contact from "./Contact";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom'; // useLocation for React Router v6
 
 
 
 function Ourworkpage() {
+    const location = useLocation(); // Get the current location object
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top when the component renders or location changes
+    }, [location]);
     return (
 
         <Container fluid >

@@ -3,9 +3,17 @@ import contactpage from '../image/contactpage.jpg';
 import contcall from '../image/contcall.jpeg'
 import './ContactPage.scss'
 import Contact from "./Contact";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom'; // useLocation for React Router v6
+
 
 
 function Contactpage() {
+    const location = useLocation(); // Get the current location object
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top when the component renders or location changes
+    }, [location]);
     return (
         <Container fluid >
             <Row>

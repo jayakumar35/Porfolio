@@ -1,9 +1,17 @@
 .contact-container{
+.contact-h1{
+    text-align: center;
+    background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)', GradientType=1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+}    
 .contact{
     background-image: linear-gradient(90deg, #f61b10, #ef0963);
     position: relative;
     padding: 30px;
-}
+}  
 
 
     .cont-h3{
