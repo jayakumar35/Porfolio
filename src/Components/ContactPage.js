@@ -1,10 +1,12 @@
-import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import contactpage from '../image/contactpage.jpg';
 import contcall from '../image/contcall.jpeg'
 import './ContactPage.scss'
 import Contact from "./Contact";
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom'; // useLocation for React Router v6
+import ContactForm from "./ContactForm ";
+import './ContactForm.scss'
 
 
 
@@ -75,25 +77,9 @@ function Contactpage() {
                     <div className="contactform">
                         <h2>Contact Us.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate aperiam neque.</p>
-                        <Form>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Control className="input" type="email" placeholder="Your Name" />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Control className="input" type="email" placeholder="Your Email" />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Control className="input" type="email" placeholder="Phone Number" />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Control className="input" type="email" placeholder="Subject" />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                                <Form.Control className="message" as="textarea" rows={3} placeholder="Your Message" />
-                            </Form.Group>
-                            <Button>SUBMIT NOW</Button>
-                        </Form>
-                    </div>
+                       </div>
+                       <ContactForm/>
+                       
                 </Col>
                 <Col sm={6} md={6} lg={6} className="contactform-img">
                     <img src={contcall}  alt="Contact call"fluid />
