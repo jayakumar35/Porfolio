@@ -33,14 +33,17 @@
   }
   .home-card{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .card {
-    width: auto;
+    width: 100%;
     padding: 10px;
-    padding-left: 55px;
+    // padding-left: 55px;
     margin: 10px;
     border-radius: 5px;
+    background: #161515;
   
 
   }
@@ -49,6 +52,8 @@
     color: #f81f01;
     padding-left: 15px;
     padding-bottom: 15px;
+    width: 100px;
+    height: 100px;
 
   }
 
@@ -70,6 +75,7 @@
 
   .frent-container {
     height: 860px;
+    max-width: fit-content;
 
     .frent-h1 {
       font-size: 3.4rem;
@@ -79,21 +85,23 @@
     .cont-btn {
       margin-left: 10%;
       padding: 5px 15px;
-      background-color: #fd4766;
+      background-color: #099bde;
       border: none;
       border-radius: 5px;
       font-size: 20px;
       font-weight: 400;
       color: #fff;
+      box-shadow: 2px 2px 5px #383737;
     }
     .home-card{
       display: block;
     }
 
     .card {
+      margin-top: 20px;
       padding: 10px;
       border-radius: 5px;
-      background: #666666cd;
+      background: #1d1d1dcd;
     
 
     }

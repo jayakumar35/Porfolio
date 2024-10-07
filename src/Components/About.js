@@ -17,13 +17,13 @@ function About() {
   return (
     <Container id="About" className="about-container" fluid>
       <Row >
-        <Col sm={12} md={12} lg={6}>
+        <Col sm={12} md={6} lg={6}>
           <div className="About-img">
-            <img src={Aboutimage} alt="About" />
+            <img src={Aboutimage}fluid alt="About"  />
           </div>
 
         </Col>
-        <Col sm={12} md={12} lg={6}>
+        <Col sm={12} md={6} lg={6}>
           <div className="about-datails">
             <h1 >About Me</h1>
             <p><b>Hello! I'm Jayakumar</b> web designer from TamilNadu,Tiruvannamala i have rich experience in web site desing and building

@@ -25,10 +25,10 @@ function Contactpage() {
             <Col sm={4} md={6} lg={4}>
                     <Card style={{ width: '23rem', height: '28vh' }} className="card">
                         <Card.Body>
-                            <Card.Title className="titel" >Email Address</Card.Title>
+                            <Card.Title className="titel" >With  phone Number</Card.Title>
                             <Card.Text>
-                                <p>jayakumar53c@gmail.com</p>
-                                <p>admindevjai@gmail.com</p>
+                                <p>+91  9626295154</p>
+                                <p>044 -2526237</p>
                             </Card.Text>
                             <i class="fa-solid fa-headphones"></i>
                         </Card.Body>
@@ -50,10 +50,12 @@ function Contactpage() {
                 <Col sm={4} md={6} lg={4}>
                     <Card style={{ width: '23rem', height: '28vh' }} className="card">
                         <Card.Body>
-                            <Card.Title className="titel" >Email Address</Card.Title>
+                            <Card.Title className="titel" >Loction</Card.Title>
                             <Card.Text>
-                                <p>jayakumar53c@gmail.com</p>
-                                <p>admindevjai@gmail.com</p>
+                                <p>5- secund street<br></br>
+                                Revathi   medical center-Ltd  <br></br>
+                                Tirupur pin 641602</p>
+                               
                             </Card.Text>
                             <i class="fa-solid fa-location-dot"></i>
                         </Card.Body>

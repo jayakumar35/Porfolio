@@ -24,7 +24,7 @@ function Frent(){
             <button className="cont-btn">CONTACT US</button>
           </Link>
           </Col>
-          <Col sm={12} md={12} lg={4}>
+          <Col sm={12} md={12} lg={12}>
           <div className="home-card ">
                         <div className="card">
                         <img src={icon1}  alt="icon"/>

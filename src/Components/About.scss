@@ -1,24 +1,82 @@
 .about-container {
-
+margin-top: 5%;
     // font-family: Poppins, sans-serif;
 
 
 
     .About-img img {
-        position: absolute;
-        top: 115%;
+       
         width: auto;
         height: 670px;
         margin-left: 7%;
         border-radius: 15px;
     }
-
-    @media screen and (max-width:550px) {
+    @media (min-width:1024px) and (max-width:1445px) {
         .About-img img {
-            width: 200px;
-            height: auto;
+        max-width: 100%;
+        margin-left: 0%;
+        } 
+        
+
+        .about-datails {}
+
+        .about-datails h1 {
+            font-size: 4rem;
+            font-weight: bolder;
+            text-align: start;
+            background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)', GradientType=1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+    
         }
+        .about-datails p {
+    
+            font-size: 1.4rem;
+            font-weight: 400;
+    
+        }
+        .about-datails button {
+            margin-left: 15px;
+            background: rgb(30, 157, 255);
+            color: white;
+            padding: 10px 15px;
+            font-size: 1rem;
+            font-weight: 550;
+            border-radius: 8px;
+            border: none;
+    
+        }
+    
+        .about-datails button:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    
+        .about-datails .rebtn {
+            color: #ffff;
+            text-decoration: none;
+        }
+    
+        .about-datails img {
+            width: 50px;
+            height: 50px;
+            margin-left: 15px;
+            transition: .2s;
+        }
+    
+        .about-datails img:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    
+    
+    
+    
     }
+
+  
 
     .about-datails {}
 
@@ -78,16 +136,18 @@
 }
 
 // -----------------------media Size------
-@media (min-width:320px) and (max-width:769px) {
+@media (min-width:320px) and (max-width:768px) {
     .about-container {
         background: #f6fdfc;
-       padding: 20px;
-    
+        padding: 20px;
+      
        .About-img img {
-        display: none;
+           max-width: 100%;
+           max-height: 50vh;
            
         }
         .about-datails{
+           
             margin-left: 15px;
         }
     
@@ -146,4 +206,8 @@
     
     }  
     
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
 }

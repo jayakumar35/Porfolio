@@ -136,9 +136,9 @@
 @media (min-width:320px) and (max-width:769px) {
 
     .contactpage {
-        
+
         max-width: fit-content;
-        max-height:fit-content;
+        max-height: fit-content;
         overflow: hidden;
         position: relative;
 
@@ -189,12 +189,12 @@
     }
 
     .contbox {
-        padding-left: 0;
+        padding-left: 25px;
 
         width: 100px;
         position: relative;
         max-width: max-content;
-        max-height:max-content;
+        max-height: max-content;
         margin-top: 50px;
 
         .card {
@@ -245,10 +245,10 @@
     .contactform-row {
         padding-top: 10%;
         max-width: fit-content;
-        max-height:fit-content;
+        max-height: fit-content;
 
         .contactform {
-            padding-left: 15%;
+            padding: 10PX;
 
         }
 
@@ -270,8 +270,8 @@
         }
 
         .contactform-img img {
-           max-width: max-content;
-           max-height: fit-content;
+            max-width: fit-content;
+            max-height: fit-content;
             border-radius: 10px;
             margin-top: 25px;
             margin-left: 35px;

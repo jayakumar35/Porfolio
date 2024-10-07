@@ -9,7 +9,7 @@ function NavScrollExample() {
       <Container fluid>
         <Navbar.Brand className='Brand'  href="#">J A Y A K U M A R</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse  id="navbarScroll">
           <Nav
             className="navlist my- my-lg-0 ms-auto ms-auto"
             style={{ maxHeight: '100px' }}
