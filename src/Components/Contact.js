@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';  // Import Link for navigation
 
 function Contact() {
   return (
-    <Container className="contact-container" fluid>
+    <Container className="contact-container">
       <h1 className="contact-h1" id="Contact">Contact</h1>
       <Row>
         <Col sm={12} md={12} lg={6} className="contact">

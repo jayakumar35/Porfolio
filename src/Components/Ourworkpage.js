@@ -18,7 +18,7 @@ function Ourworkpage() {
     }, [location]);
     return (
 
-        <Container fluid >
+        <Container>
             <Row>
                 <Col sm={12} md={12} lg={12}>
                     <div className="ourworkpage">

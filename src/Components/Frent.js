@@ -1,4 +1,4 @@
-import {Container,Row,Col} from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import './Frent.scss'
 import NavScrollExample from "./NavScrollExample";
 import icon1 from "../image/icon-01.png"
@@ -10,42 +10,42 @@ import { Link } from 'react-router-dom';  // Import Link for navigation
 
 
 
-function Frent(){
-    return(
-        <Container className="frent-container " fluid>
+function Frent() {
+    return (
+        <Container className="frent-container ">
             <Row className="frent-row">
                 <Col sm={12} md={12} lg={12} className="frent-Col">
-                <NavScrollExample/>
-                <div className="page">
-                    <h1 className="frent-h1">Full Stack <br></br> DEVELOPER</h1>
+                    <NavScrollExample />
+                    <div className="page">
+                        <h1 className="frent-h1">Full Stack <br></br> DEVELOPER</h1>
                     </div>
-                              {/* Use Link to navigate to the ContactPage */}
-          <Link to="/contactpage">
-            <button className="cont-btn">CONTACT US</button>
-          </Link>
-          </Col>
-          <Col sm={12} md={12} lg={12}>
-          <div className="home-card ">
+                    {/* Use Link to navigate to the ContactPage */}
+                    <Link to="/contactpage">
+                        <button className="cont-btn">CONTACT US</button>
+                    </Link>
+                </Col>
+                <Col sm={12} md={12} lg={12}>
+                    <div className="home-card ">
                         <div className="card">
-                        <img src={icon1}  alt="icon"/>
-                        <h3>Website Development</h3>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                            <img src={icon1} alt="icon" />
+                            <h3>Website Development</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                         </div>
                         <div className="card">
-                        <img src={icon2}  alt="icon"/>                        <h3>Business Stratagy</h3>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                            <img src={icon2} alt="icon" />                        <h3>Business Stratagy</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                         </div>
                         <div className="card">
-                        <img src={icon3} alt="icon"/>                     
-                        <h3>Marketing & Reporting</h3>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                            <img src={icon3} alt="icon" />
+                            <h3>Marketing & Reporting</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                         </div>
                     </div>
-          
 
-          </Col>
 
-                         
+                </Col>
+
+
             </Row>
         </Container>
     )

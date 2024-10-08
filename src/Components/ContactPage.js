@@ -17,7 +17,7 @@ function Contactpage() {
         window.scrollTo(0, 0); // Scroll to the top when the component renders or location changes
     }, [location]);
     return (
-        <Container fluid >
+        <Container >
             <Row>
                 <Col sm={12} md={12} lg={12}>
                     <div className="contactpage">
@@ -62,7 +62,7 @@ function Contactpage() {
                         <Card.Body>
                             <Card.Title className="titel" >Loction</Card.Title>
                             <Card.Text>
-                                <p>5- secund street<br></br>
+                                <p>5- second street<br></br>
                                 Revathi   medical center-Ltd  <br></br>
                                 Tirupur pin 641602</p>
                                
