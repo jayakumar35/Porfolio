@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';  // Import Link for navigation
 
 function Frent() {
     return (
-        <Container className="frent-container ">
+        <Container style={{maxWidth: '1450px'}}  className="frent-container ">
             <Row className="frent-row">
                 <Col sm={12} md={12} lg={12} className="frent-Col">
                     <NavScrollExample />

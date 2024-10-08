@@ -17,7 +17,7 @@ function Contactpage() {
         window.scrollTo(0, 0); // Scroll to the top when the component renders or location changes
     }, [location]);
     return (
-        <Container >
+        <Container  style={{maxWidth: '1450px'}}  >
             <Row>
                 <Col sm={12} md={12} lg={12}>
                     <div className="contactpage">

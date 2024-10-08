@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 function Project() {
     return (
 
-        <Container>
+        <Container  style={{maxWidth: '1450px'}} >
             <h1 className="pro-h1" id="Project">Our Work</h1>
             <Row>
                 <Col sm={6} md={6} lg={4} className="">

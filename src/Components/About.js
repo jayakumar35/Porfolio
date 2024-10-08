@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <Container id="About" className="about-container">
+    <Container  style={{maxWidth: '1450px'}}  id="About" className="about-container">
       <Row >
         <Col sm={12} md={6} lg={6}>
           <div className="About-img">
