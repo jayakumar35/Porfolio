@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './NavScrollExample.scss'
+import { Link } from 'react-router-dom';
 
 function NavScrollExample() {
   return (
@@ -19,6 +20,9 @@ function NavScrollExample() {
             <Nav.Link  className='mx-4' href="#About">About</Nav.Link>
             <Nav.Link  className='mx-4' href="#Project">Project</Nav.Link>
             <Nav.Link  className='mx-4' href="#Contact">Contact</Nav.Link>
+            <Link to="/contactpage">
+                        <button className="cont-btn">CONTACT US</button>
+                    </Link>
 
           </Nav>
         </Navbar.Collapse>

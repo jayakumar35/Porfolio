@@ -28,8 +28,19 @@ function About() {
             <h1 >About Me</h1>
             <p><b>Hello! I'm Jayakumar</b> web designer from TamilNadu,Tiruvannamala i have rich experience in web site desing and building
               also i am good at wordpress i love to talk with you about our unique</p>
-            <button class="btncv"><a className="rebtn" href="src/jayakumar resume.pdf">Resume</a></button>
-            <Link to="/ContactPage">
+          
+      <button className="btncv">
+        <a
+          className="rebtn"
+          href={`${process.env.PUBLIC_URL}/jayakumar resume.pdf`} // Path to resume file
+          target="_" // Opens resume in a new tab
+          rel="noopener noreferrer" // For security reasons
+          download // Ensures the resume will be downloaded
+        >
+          Resume
+        </a>
+      </button>
+          <Link to="/ContactPage">
             <button class="btncv mx-3">Contact Me</button>
             </Link>
             <div class="details">

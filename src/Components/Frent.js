@@ -4,7 +4,6 @@ import NavScrollExample from "./NavScrollExample";
 import icon1 from "../image/icon-01.png"
 import icon2 from '../image/icon-02.png'
 import icon3 from '../image/icon-03.png'
-import { Link } from 'react-router-dom';  // Import Link for navigation
 
 
 
@@ -19,10 +18,7 @@ function Frent() {
                     <div className="page">
                         <h1 className="frent-h1">Full Stack <br></br> DEVELOPER</h1>
                     </div>
-                    {/* Use Link to navigate to the ContactPage */}
-                    <Link to="/contactpage">
-                        <button className="cont-btn">CONTACT US</button>
-                    </Link>
+                  
                 </Col>
                 <Col sm={12} md={12} lg={12}>
                     <div className="home-card ">
