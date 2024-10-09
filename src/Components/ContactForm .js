@@ -34,6 +34,9 @@ const ContactForm = () => {
       )
       .then((response) => {
         console.log('Thank You email sent successfully to the user!', response.status, response.text);
+
+        // Clear the form fields after successful submission
+        setFormData({ name: '', email: '', phone: '', message: '' });
       })
       .catch((err) => console.error('Failed to send Thank You email to the user:', err));
 
@@ -60,7 +63,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <form  className='contactform' onSubmit={sendEmail}>
+      <form className='contactform' onSubmit={sendEmail}>
         <input
           type="text"
           name="name"

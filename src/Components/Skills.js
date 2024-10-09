@@ -20,7 +20,7 @@ function Skills() {
       <Row>
         <Col>
           <div id="Skills" className="skills-container">
-            <h1>Skills</h1>
+          
             <div className="skills-img">
               <img src={Htmlimage} />
               <img src={Cssimage} />

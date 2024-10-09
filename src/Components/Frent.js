@@ -4,6 +4,7 @@ import NavScrollExample from "./NavScrollExample";
 import icon1 from "../image/icon-01.png"
 import icon2 from '../image/icon-02.png'
 import icon3 from '../image/icon-03.png'
+import Skills from "./Skills";
 
 
 
@@ -11,7 +12,7 @@ import icon3 from '../image/icon-03.png'
 
 function Frent() {
     return (
-        <Container style={{maxWidth: '1450px'}}  className="frent-container ">
+        <Container style={{maxWidth: '1550px'}}  className="frent-container ">
             <Row className="frent-row">
                 <Col sm={12} md={12} lg={12} className="frent-Col">
                     <NavScrollExample />
@@ -21,6 +22,7 @@ function Frent() {
                   
                 </Col>
                 <Col sm={12} md={12} lg={12}>
+                    <Skills/>
                     <div className="home-card ">
                         <div className="card">
                             <img src={icon1} alt="icon" />
@@ -28,7 +30,8 @@ function Frent() {
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                         </div>
                         <div className="card">
-                            <img src={icon2} alt="icon" />                        <h3>Business Stratagy</h3>
+                            <img src={icon2} alt="icon" />
+                            <h3>Mobile App Development</h3>
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                         </div>
                         <div className="card">

@@ -122,13 +122,13 @@
             .cont-h1{
                 text-align: start;
                 color: aliceblue;
-                font-size: 3.5rem;
+                font-size: 3rem;
                 font-weight: bold;
                 padding-left: 20%;
             }
             .cont-btn{
                 margin-left: 30%;
-                padding: 10px 15px;
+                padding: 10px 10px;
                 background-image: linear-gradient(120deg, #10ccf6, #4c9391af);
                 border: none;
                 border-radius: 5px;
@@ -148,7 +148,7 @@
                  background-size: cover;
             }
             .foodlist{
-                display: flex;
+                // display: flex;
                 justify-content: center;
                 align-items: center;
                 padding-top: 15px;
@@ -163,8 +163,8 @@
             .list2 li{
                 color: #999;
                 font-size: 15px;
-                padding: 5px; 
-                margin-left: 80px;  
+                // padding: 5px; 
+                // margin-left: 80px;  
             }
             .conticon{
                 color: #999;
