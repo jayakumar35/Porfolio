@@ -1,33 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .Navbar {
-    // box-shadow: 2px 2px 5px #484545;
-    background: #171515a0;
-    padding-top: 4%;
+    font-family: "Poppins", sans-serif;    // box-shadow: 2px 2px 5px #484545;
+    // background: #fbfafaa0;
+    padding-top: 1%;
     
+    img{
+    width: 100px;
+    height: 100px;
+    }
     .Brand {
         font-size: 1.7rem;
         font-weight: 450;
-        color: #fff;
+        color: #151414;
     }
 
     .navlist a {
         font-weight: 500;
-        color: #f0efef;
+        color: #101010;
+        transition: .3s;
+        
+    }
+    .navlist a:hover{
+      text-decoration: underline;
+      color: #1e9bde;
+      transform: scale(1.1);
     }
     button{
+        // display: none;
         background: #999;
     
     }
+    .conticon i{
+        font-size: 22px;
+        padding: 20px;
+        transition: .3s;
+    }
+    .conticon i:hover{
+        color: #246cfb;
+        cursor: pointer;
+        transform: translateY(-10px);
+    }
 }
-@media (min-width:320px) and (max-width:769px) {
+@media (min-width:350px) and (max-width:769px) {
     .Navbar {
         // box-shadow: 2px 2px 5px #484545;
         background: #171515a0;
         padding-top: 4%;
-        
+        img{
+           display: none;
+            }
         .Brand {
             font-size: 1.5rem;
             font-weight: 450;
             color: #fff;
+            margin-left: 15px;
         }
     
         .navlist a {
@@ -35,8 +64,19 @@
             color: #f0efef;
         }
         button{
-            background: #999;
-        
+           max-height: fit-content;
+           max-width: fit-content;
+           margin-left:20%;
+
+        }
+        span{
+            width: 25px;
+        }
+        .conticon {
+           display: none;
+        }
+        .cont-btn{
+            display: none;
         }
     }   
 }

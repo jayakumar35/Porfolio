@@ -3,7 +3,7 @@ import './Services.scss'
 
 function Services() {
   return (
-    <Container  style={{maxWidth: '1450px'}}  className="services-container ">
+    <Container   style={{maxWidth: '1550px'}}  className="services-container ">
       <Row className="services-row">
         <Col sm={12} md={12} lg={4} className="services-col">
           <h1>Services</h1>

@@ -94,7 +94,7 @@
         margin-left: 25px;
     }
 }
-@media (min-width:320px) and (max-width:769px) {
+@media (min-width:300px) and (max-width:769px) {
     .contact-container{
         .contact{
             background-image: linear-gradient(90deg, #f61b10, #ef0963);
@@ -102,9 +102,9 @@
             padding: 30px;
         }
         #Contact{
-        font-size: 3.5rem;
+        font-size: 3.4rem;
         font-weight: bold;
-        margin-left:65px ;
+        margin-left:55px ;
         background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)',GradientType=1 );
         -webkit-background-clip: text;
@@ -116,7 +116,7 @@
             .cont-h3{
                 color:white;
                 font-weight: 200;
-                padding-left: 30%;
+                padding-left: 25%;
                 padding-bottom: 2%;
             } 
             .cont-h1{
@@ -124,11 +124,11 @@
                 color: aliceblue;
                 font-size: 3rem;
                 font-weight: bold;
-                padding-left: 20%;
+                padding-left: 17%;
             }
             .cont-btn{
-                margin-left: 30%;
-                padding: 10px 10px;
+                margin-left: 25%;
+                padding: 8px 10px;
                 background-image: linear-gradient(120deg, #10ccf6, #4c9391af);
                 border: none;
                 border-radius: 5px;
@@ -148,7 +148,7 @@
                  background-size: cover;
             }
             .foodlist{
-                // display: flex;
+                display:inline;
                 justify-content: center;
                 align-items: center;
                 padding-top: 15px;
@@ -163,18 +163,18 @@
             .list2 li{
                 color: #999;
                 font-size: 15px;
-                // padding: 5px; 
-                // margin-left: 80px;  
+                margin-left: 0px;
+                
             }
             .conticon{
                 color: #999;
                 font-size: 15px;
-                margin-left: 60px;
+                margin-left: 20px;
                
             
             }
             .conticon i{
-                padding: 10px;
+                padding: 15px;
                 transition: .3s;
             }
             .conticon i:hover{
@@ -184,7 +184,7 @@
             }
             p{
                 color: #999;
-                font-size: 18px;
+                font-size: 15px;
                 padding: 15px; 
                 margin-left: 10px;
             }

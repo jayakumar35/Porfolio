@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 function Project() {
     return (
 
-        <Container  style={{maxWidth: '1450px'}} >
+        <Container   style={{maxWidth: '1550px'}} >
             <h1 className="pro-h1" id="Project">Our Work</h1>
             <Row>
                 <Col sm={6} md={6} lg={4} className="">
@@ -26,7 +26,7 @@ function Project() {
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
                                     <Card.Title className="h3">Weather</Card.Title>
-                                    <a href="https://example.com">Check Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="https://devjai-weather.netlify.app">Check Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     <p>Some quick example text to build on the card title and make up the
                                         bulk of the card's content.</p>
                                 </Card.Text>
@@ -42,7 +42,7 @@ function Project() {
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
                                     <Card.Title className="h3">Bmi Calcution</Card.Title>
-                                    <a href="https://example.com">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="https://jayakumar-bmi-calculator.netlify.app">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     <p>Some quick example text to build on the card title and make up the
                                         bulk of the card's content.</p>
                                 </Card.Text>
@@ -58,7 +58,7 @@ function Project() {
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
                                     <Card.Title className="h3">TodoList</Card.Title>
-                                    <a href="https://example.com">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="https://devjai-todolist.netlify.app">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     <p>Some quick example text to build on the card title and make up the
                                         bulk of the card's content.</p>
                                 </Card.Text>

@@ -10,12 +10,11 @@ import Facebookimage from '../image/facebook.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Link } from "react-router-dom";
-
+import LeftTabsExample from "./LeftTabsExample";
 
 function About() {
   return (
-    <Container  style={{maxWidth: '1450px'}}  id="About" className="about-container">
+    <Container  style={{maxWidth: '1550px'}}  id="About" className="about-container">
       <Row >
         <Col sm={12} md={6} lg={6}>
           <div className="About-img">
@@ -29,27 +28,7 @@ function About() {
             <p><b>Hello! I'm Jayakumar</b> web designer from TamilNadu,Tiruvannamala i have rich experience in web site desing and building
               also i am good at wordpress i love to talk with you about our unique</p>
           
-      <button className="btncv">
-        <a
-          className="rebtn"
-          href={`${process.env.PUBLIC_URL}/jayakumar resume.pdf`} // Path to resume file
-          target="_" // Opens resume in a new tab
-          rel="noopener noreferrer" // For security reasons
-          download // Ensures the resume will be downloaded
-        >
-          Resume
-        </a>
-      </button>
-          <Link to="/ContactPage">
-            <button class="btncv mx-3">Contact Me</button>
-            </Link>
-            <div class="details">
-              <p><b>Age</b>    - 26</p>
-              <p><b>Birth</b>  - 03/may/1998</p>
-              <p><b>Email</b>  - jayakumar53c@gmail.com</p>
-              <p><b>City</b>   - Tiruvannamalai</p>
-              <p><b>Country</b> - India</p>
-            </div>
+     
             <div class="social-media">
               <a href="https://github.com/jayakumar35"><img src={Githupimage} alt="githup" /></a>
               <a href="https://www.linkedin.com/in/jayakumar3598/"><img src={Linkedinimage}  alt="linkedin"/></a>
@@ -57,6 +36,9 @@ function About() {
               <a href="https://x.com/jayakumar3598"><img src={Xtwitterimage} alt="x" /></a>
               <a href="https://www.youtube.com/@Jksquad53"><img src={Youtubeimage} alt="youtube" /></a>
               <a href="https://www.facebook.com/profile.php?id=100012086977710"><img src={Facebookimage} alt="facebook" /></a>
+            </div>
+            <div className="controlled">
+              <LeftTabsExample/>
             </div>
           </div>
         </Col>

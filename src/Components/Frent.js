@@ -1,10 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap"
 import './Frent.scss'
 import NavScrollExample from "./NavScrollExample";
-import icon1 from "../image/icon-01.png"
-import icon2 from '../image/icon-02.png'
-import icon3 from '../image/icon-03.png'
-import Skills from "./Skills";
+import homeimg from "../image/About.jpg"
 
 
 
@@ -14,33 +11,19 @@ function Frent() {
     return (
         <Container style={{maxWidth: '1550px'}}  className="frent-container ">
             <Row className="frent-row">
-                <Col sm={12} md={12} lg={12} className="frent-Col">
-                    <NavScrollExample />
+            <NavScrollExample />
+                <Col sm={12} md={6} lg={8} className="frent-Col">
+                  
                     <div className="page">
-                        <h1 className="frent-h1">Full Stack <br></br> DEVELOPER</h1>
+                    <h2>FREELANCE <span className="span">FULL STOCK DEVELOPER</span></h2>
+                    <h1>Hello, i'm <span>Jayakumar</span> Welcome to my World</h1>
                     </div>
                   
                 </Col>
-                <Col sm={12} md={12} lg={12}>
-                    <Skills/>
-                    <div className="home-card ">
-                        <div className="card">
-                            <img src={icon1} alt="icon" />
-                            <h3>Website Development</h3>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
-                        </div>
-                        <div className="card">
-                            <img src={icon2} alt="icon" />
-                            <h3>Mobile App Development</h3>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
-                        </div>
-                        <div className="card">
-                            <img src={icon3} alt="icon" />
-                            <h3>Marketing & Reporting</h3>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
-                        </div>
-                    </div>
-
+                <Col sm={12} md={6} lg={3}>
+                   <img src={homeimg} alt="home"/>
+                   
+                  
 
                 </Col>
 

@@ -18,7 +18,7 @@ function Ourworkpage() {
     }, [location]);
     return (
 
-        <Container  style={{maxWidth: '1450px'}} >
+        <Container   style={{maxWidth: '1550px'}} >
             <Row>
                 <Col sm={12} md={12} lg={12}>
                     <div className="ourworkpage">
