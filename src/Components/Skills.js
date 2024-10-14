@@ -3,7 +3,6 @@ import './Skills.css';
 import Htmlimage from '../image/html.png'
 import Cssimage from '../image/css-3.png'
 import Jsimage from '../image/js.png'
-import Bootstrapimage from '../image/bootstrap.png'
 import Reactimage from '../image/react.png'
 import Cimage from '../image/c-programming-569564.webp'
 import Javaimage from '../image/java.png'
@@ -22,14 +21,14 @@ function Skills() {
           <div id="Skills" className="skills-container">
           
             <div className="skills-img">
-              <img src={Htmlimage} />
-              <img src={Cssimage} />
-              <img src={Jsimage} />
-              <img src={Reactimage} />
-              <img src={Cimage} />
-              <img src={Javaimage} />
-              <img src={Springimage} />
-              <img src={Mysqlimage} />
+              <img src={Htmlimage} alt="skills" />
+              <img src={Cssimage} alt="skills" />
+              <img src={Jsimage}  alt="skills" />
+              <img src={Reactimage}  alt="skills" />
+              <img src={Cimage}  alt="skills" />
+              <img src={Javaimage}  alt="skills" />
+              <img src={Springimage}  alt="skills"/>
+              <img src={Mysqlimage} alt="skills" />
             </div>
           </div>
 
