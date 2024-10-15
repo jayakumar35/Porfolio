@@ -1,12 +1,15 @@
+// <----Media Size Leptop ---->
+@media (min-width:1024px) {
+ 
 .ourworkpage {
 
     width: 100%;
-    height: 96vh;
+    height: 70vh;
     overflow: hidden;
     position: relative;
 
     .our-img {
-        filter: brightness(25%);
+        filter: brightness(50%);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -14,13 +17,11 @@
 
     }
 
-
-
     h2 {
         position: absolute;
         top: 32%;
         left: 40%;
-        font-size: 35px;
+        font-size:2.5rem;
         font-weight: 400;
         color: #fff;
         padding-bottom: 25px;
@@ -29,8 +30,8 @@
     h1 {
         position: absolute;
         top: 48%;
-        left: 35%;
-        font-size: 5rem;
+        left: 30%;
+        font-size: 6rem;
         font-weight: bold;
         background: linear-gradient(145deg, #f81f01, #ee076e);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)', GradientType=1);
@@ -43,15 +44,10 @@
     h4 {
         position: absolute;
         top: 70%;
-        left: 25%;
-        font-size: 25px;
+        left: 5%;
+        font-size: 2rem;
         color: #fff;
     }
-
-
-
-
-
 
     .card-body {
         padding: 0;
@@ -160,18 +156,19 @@
         height: 60%;
     }
 }
-
-@media (min-width:320px) and (max-width:769px) {
+}
+// <----Media Size Mobile ---->
+@media (min-width:320px) and (max-width:426px) {
     .ourworkpage {
 
-        max-width: fit-content;
-        max-height: fit-content;
+        max-width: 100%;
+        max-height:70vh;
         overflow: hidden;
         position: relative;
 
     
         .our-img {
-            filter: brightness(25%);
+            filter: brightness(50%);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -184,7 +181,7 @@
         h2 {
             position: absolute;
             top: 32%;
-            left: 25%;
+            left: 20%;
             font-size: 30px;
             font-weight: 400;
             color: #fff;
@@ -195,7 +192,7 @@
             position: absolute;
             top: 42%;
             left: 2%;
-            font-size: 4.9rem;
+            font-size: 4.2rem;
             font-weight: bold;
             background: linear-gradient(145deg, #f81f01, #ee076e);
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)', GradientType=1);
@@ -209,6 +206,62 @@
             position: absolute;
             top: 63%;
             left: 5%;
+            font-size: 22px;
+            color: #fff;
+        }
+    }
+    
+}
+
+// <----Media Size Tab ---->
+@media (min-width:426px) and (max-width:769px) {
+    .ourworkpage {
+
+        max-width:100%;
+        max-height:70vh;
+        overflow: hidden;
+        position: relative;
+
+    
+        .our-img {
+            filter: brightness(50%);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+    
+        }
+    
+    
+    
+        h2 {
+            position: absolute;
+            top: 32%;
+            left: 35%;
+            font-size: 30px;
+            font-weight: 400;
+            color: #fff;
+            padding-bottom: 20px;
+        }
+    
+        h1 {
+            position: absolute;
+            top: 42%;
+            left: 30%;
+            font-size: 4.9rem;
+            font-weight: bold;
+            background: linear-gradient(145deg, #f81f01, #ee076e);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)', GradientType=1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+    
+        }
+    
+        h4 {
+            position: absolute;
+            top: 63%;
+            left: 10%;
             font-size: 22px;
             color: #fff;
         }

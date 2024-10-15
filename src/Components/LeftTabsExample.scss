@@ -1,10 +1,80 @@
-#lefttab{
-    background: #000;
-    
-    .flex-rows{
-        display: none;
+// ---Media Size Leptop---//
+
+@media (min-width:1024px) {
+  
+.tab-content {
+    box-shadow: 1px 1px 3px #999;
+    padding: 10px;
+    border-radius: 5px;
+
+    .div-pone {
+        margin-bottom: 0px;
     }
-    .nav-item a{
-        color: red;
+
+    h4 {
+        font-size: 18px;
+        margin-bottom: 5px;
     }
+
+    .div-pone p {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+
+}
+}
+
+// ---Media Size Mobile---/
+
+@media (min-width:310px) and (max-width:426px) {
+    .tab-content {
+        box-shadow: 1px 1px 3px #999;
+        padding: 10px;
+        border-radius: 5px;
+
+        .div-pone {
+            margin-bottom: 5px;
+        }
+
+        h4 {
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+
+        .div-pone p {
+            font-size: 13px;
+            margin-bottom: 0px;
+        }
+
+
+    }
+
+}
+
+// ----Media Size Tab ---//
+
+@media (min-width:426px) and (max-width:769px) {
+    .tab-content {
+        box-shadow: 1px 1px 3px #999;
+        padding: 10px;
+        border-radius: 5px;
+
+        .div-pone {
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+
+        .div-pone p {
+            font-size: 13px;
+            margin-bottom: 0px;
+        }
+
+
+    }
+
 }

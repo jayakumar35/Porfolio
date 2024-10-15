@@ -3,14 +3,13 @@ import './Services.scss'
 
 function Services() {
   return (
-    <Container   style={{maxWidth: '1550px'}}  className="services-container ">
+    <Container style={{ maxWidth: '1550px' }} className="services-container ">
       <Row className="services-row">
         <Col sm={12} md={12} lg={4} className="services-col">
           <h1>Services</h1>
           <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
         </Col>
-        <Col sm={6} md={12} lg={4} className=''>
-
+        <Col sm={6} md={6} lg={4} className=''>
           <Card style={{ width: '20rem' }} className="card">
             <Card.Body className='p-4'>
               <div className='icon'>
@@ -24,7 +23,7 @@ function Services() {
               </Card.Text>
             </Card.Body  >
           </Card>
-          <Card style={{width: '20rem' }} className="card">
+          <Card style={{ width: '20rem' }} className="card">
             <Card.Body className='p-4'>
               <div className='icon'>
                 <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
@@ -38,7 +37,7 @@ function Services() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={6} md={12} lg={4}>
+        <Col sm={6} md={6} lg={4}>
           <Card style={{ width: '20rem' }} className="card">
             <Card.Body className='p-4'>
 
@@ -62,8 +61,6 @@ function Services() {
               </Card.Text>
             </Card.Body>
           </Card>
-
-
         </Col>
       </Row>
     </Container>

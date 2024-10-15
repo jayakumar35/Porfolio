@@ -1,14 +1,13 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import './Ourworkpage.scss';
-import Ourimage from '../image/frent.jpg';
+import Ourimage from '../image/Ourwork.jpg';
 import Weatherimage from '../image/project/Weather.jpg'
 import Bmiimage from '../image/project/Bmi.jpg'
 import Todoimage from '../image/project/Todolist.jpg'
 import Contact from "./Contact";
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom'; // useLocation for React Router v6
-
-
+   
 
 function Ourworkpage() {
     const location = useLocation(); // Get the current location object
@@ -33,7 +32,7 @@ function Ourworkpage() {
                 </Col>
             </Row>
             <Row>
-                <Col sm={6} md={6} lg={4} className="">
+                <Col sm={6} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
                         <Card style={{ width: '22rem', height: '70vh' }} className="box">
@@ -49,7 +48,7 @@ function Ourworkpage() {
                         </Card>
                     </div>
                 </Col>
-                <Col sm={6} md={6} lg={4} className="">
+                <Col sm={6} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
                         <Card style={{ width: '22rem', height: '70vh' }} className="box">
@@ -65,7 +64,7 @@ function Ourworkpage() {
                         </Card>
                     </div>
                 </Col>
-                <Col sm={6} md={6} lg={4} className="">
+                <Col sm={6} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
                         <Card style={{ width: '22rem', height: '70vh' }} className="box">
@@ -84,7 +83,7 @@ function Ourworkpage() {
 
             </Row>
             <Row>
-                <Col sm={6} md={6} lg={4} className="">
+                <Col sm={6} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
                         <Card style={{ width: '22rem', height: '70vh' }} className="box">
@@ -100,7 +99,7 @@ function Ourworkpage() {
                         </Card>
                     </div>
                 </Col>
-                <Col sm={6} md={6} lg={4} className="">
+                <Col sm={6} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
                         <Card style={{ width: '22rem', height: '70vh' }} className="box">
@@ -116,7 +115,7 @@ function Ourworkpage() {
                         </Card>
                     </div>
                 </Col>
-                <Col sm={6} md={6} lg={4} className="">
+                <Col sm={6} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
                         <Card style={{ width: '22rem', height: '70vh' }} className="box">

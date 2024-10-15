@@ -1,8 +1,8 @@
 import About from './Components/About';
 import Services from './Components/Services';
-import Project from './Components/Project';
 import Contact from './Components/Contact';
 import Frent from './Components/Frent';
+import AppSwiper from './Components/AppSwiper';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Frent />
       <About />
       <Services />
-      <Project />
+      <AppSwiper/>
       <Contact />
 
     </>

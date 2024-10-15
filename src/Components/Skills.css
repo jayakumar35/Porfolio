@@ -3,10 +3,10 @@
 }
 
 .skills-img img{
-    margin-top: 35px;
     
     width: auto;
-    height: 75px;
+    padding: 5px;
+    height: 55px;
     margin-left: 6%;
     transition: .3s;
 }

@@ -1,26 +1,17 @@
-.about-container {
-margin-top: 5%;
-background: #F5F5F5;
+// ----Media Size Leptop ----//
+@media (min-width:1024px) {
 
-    // font-family: Poppins, sans-serif;
+    .about-container {
+        background: #f8ffff;
+        height: 650px;
 
-
-
-    .About-img img {
-       
-        width: auto;
-        height: 600px;
-        margin-left: 7%;
-        border-radius: 15px;
-    }
-    @media (min-width:1024px) and (max-width:1445px) {
         .About-img img {
-        max-width: 100%;
-        margin-left: 0%;
-        } 
-        
 
-        .about-datails {}
+            width: auto;
+            height: 600px;
+            margin-left: 10%;
+            border-radius: 15px;
+        }
 
         .about-datails h1 {
             font-size: 4rem;
@@ -31,22 +22,17 @@ background: #F5F5F5;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             display: inline-block;
-    
+
         }
+
         .about-datails p {
-    
+
             font-size: 1.4rem;
             font-weight: 400;
-    
+
         }
-       
-      
-         
+
     }
-
-  
-
-    .about-datails {}
 
     .about-datails h1 {
         font-size: 4rem;
@@ -59,17 +45,18 @@ background: #F5F5F5;
         display: inline-block;
 
     }
+
     .about-datails p {
 
         font-size: 1.4rem;
         font-weight: 400;
-        margin-bottom: 35px ;
+        margin-bottom: 35px;
 
     }
-   
+
     .about-datails img {
-        width:50px;
-        height:50px;
+        width: 50px;
+        height: 50px;
         margin-left: 15px;
         transition: .2s;
         margin-bottom: 30px;
@@ -79,28 +66,27 @@ background: #F5F5F5;
         cursor: pointer;
         transform: scale(1.1);
     }
-
-
-
 }
 
-// -----------------------media Size------
-@media (min-width:320px) and (max-width:768px) {
+// -----------------------media Size  Mobile------/
+@media (min-width:320px) and (max-width:426px) {
     .about-container {
-        background: #f6fdfc;
-        padding: 20px;
-      
-       .About-img img {
-        margin-top: 25px;
-           max-width: 100%;
-           max-height: 50vh;
-           
+        background: #f8ffff;
+
+        .About-img img {
+            margin-top: 25px;
+            max-width: 100%;
+            max-height: 50vh;
+            border-radius: 10px;
+            margin-left: 10%;
+
         }
-        .about-datails{
-           
+
+        .about-datails {
+
             margin-left: 15px;
         }
-    
+
         .about-datails h1 {
             font-size: 3.2rem;
             font-weight: bolder;
@@ -110,14 +96,16 @@ background: #F5F5F5;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             display: inline-block;
-    
+
         }
+
         .about-datails p {
-    
+
             font-size: 1.1rem;
             font-weight: 400;
-    
+
         }
+
         .about-datails button {
             margin-left: 15px;
             background: rgb(30, 157, 255);
@@ -127,37 +115,84 @@ background: #F5F5F5;
             font-weight: 550;
             border-radius: 5px;
             border: none;
-    
+
         }
-    
+
         .about-datails button:hover {
             cursor: pointer;
             transform: scale(1.1);
         }
-    
+
         .about-datails .rebtn {
             color: #ffff;
             text-decoration: none;
         }
-    
+
         .about-datails img {
             width: 30px;
             height: 30px;
             margin-left: 15px;
             transition: .2s;
         }
-    
+
         .about-datails img:hover {
             cursor: pointer;
             transform: scale(1.1);
         }
-    
-    
-    
-    }  
-    
+
+    }
+
 }
 
-@media (min-width:769px) and (max-width:1024px) {
+//------------- Media Size Tab----//
+
+@media (min-width:426px) and (max-width:769px) {
+    .about-container {
+        background: #f8ffff;
+
+        .About-img img {
+            margin-top: 25px;
+            max-width: 100%;
+            max-height: 70vh;
+        }
+
+        .about-datails {
+
+            margin-left: 15px;
+        }
+
+        .about-datails h1 {
+            font-size: 3.2rem;
+            font-weight: bolder;
+            text-align: start;
+            background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)', GradientType=1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+
+        }
+
+        .about-datails p {
+
+            font-size: 1.2rem;
+            font-weight: 400;
+
+        }
+
+        .about-datails img {
+            width: 40px;
+            height: 40px;
+            margin-left: 15px;
+            transition: .2s;
+        }
+
+        .about-datails img:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+
+    }
+
 
 }

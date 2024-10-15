@@ -1,3 +1,5 @@
+// -----Media Size Leptop----//
+@media (min-width:1024px) {
 .contactpage {
     width: 100%;
     height: 96vh;
@@ -10,15 +12,14 @@
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
+        max-width: 100%;
 
     }
-
-
 
     h2 {
         position: absolute;
         top: 32%;
-        left: 40%;
+        left: 38%;
         font-size: 35px;
         font-weight: 400;
         color: #fff;
@@ -28,7 +29,7 @@
     h1 {
         position: absolute;
         top: 48%;
-        left: 30%;
+        left: 25%;
         font-size: 5rem;
         font-weight: bold;
         background: linear-gradient(145deg, #f81f01, #ee076e);
@@ -42,12 +43,10 @@
     h4 {
         position: absolute;
         top: 70%;
-        left: 25%;
+        left: 15%;
         font-size: 25px;
         color: #fff;
     }
-
-
 
 }
 
@@ -57,19 +56,22 @@
     position: relative;
 
     .card {
+        max-width: 100%;
+        max-height: 70%;
         padding: 30px;
         border: none;
         box-shadow: 2px 2px 5px #999;
     }
 
     .titel {
+        margin-top: 15px;
         font-size: 25px;
         font-weight: bold;
         text-align: center;
     }
 
     p {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 500;
         text-align: start;
         padding-left: 15px;
@@ -93,9 +95,7 @@
         background: #fd4766;
         color: #fff;
     }
-
-    //contact Form
-
+ 
 }
 
 .contactform-row {
@@ -105,7 +105,6 @@
         padding-left: 15%;
 
     }
-
 
     h2 {
         font-size: 4rem;
@@ -124,20 +123,21 @@
     }
 
     .contactform-img img {
-        width: 80%;
+       max-width: 100%;
         border-radius: 10px;
         margin-top: 15px;
     }
 
 }
+}
 
-// media Size -------
+// <----media Size Mobile ----->
 
-@media (min-width:320px) and (max-width:769px) {
+@media (min-width:320px) and (max-width:426px) {
 
     .contactpage {
 
-        max-width: fit-content;
+        max-width:100%;
         max-height: fit-content;
         overflow: hidden;
         position: relative;
@@ -238,8 +238,6 @@
             color: #fff;
         }
 
-        //contact Form
-
     }
 
     .contactform-row {
@@ -270,11 +268,157 @@
         }
 
         .contactform-img img {
-            max-width: fit-content;
+            max-width: 100%;
             max-height: fit-content;
             border-radius: 10px;
             margin-top: 25px;
             margin-left: 35px;
+        }
+
+    }
+
+}
+
+// <----Media Size Tab ---->
+
+@media (min-width:426px) and (max-width:769px) {
+
+    .contactpage {
+
+        max-width: 100%;
+        max-height: 100vh;
+        overflow: hidden;
+        position: relative;
+
+        .cont-img {
+            filter: brightness(25%);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            max-width: 100%;
+
+        }
+
+        h2 {
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            font-size: 25px;
+            font-weight: 400;
+            color: #fff;
+            padding-bottom: 25px;
+        }
+
+        h1 {
+            position: absolute;
+            top: 35%;
+            left: 8%;
+            font-size: 5rem;
+            overflow: hidden;
+            font-weight: bold;
+            background: linear-gradient(145deg, #f81f01, #ee076e);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)', GradientType=1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+
+        }
+
+        h4 {
+            position: absolute;
+            top: 68%;
+            left: 5%;
+            font-size: 22px;
+            color: #fff;
+        }
+
+
+
+    }
+
+    .contbox {
+        padding-left: 25px;
+        position: relative;
+        margin-top: 50px;
+
+        .card {
+            max-width: 100%;
+            max-height: 100%;
+            margin-top: 55px;
+
+            border: none;
+            box-shadow: 2px 2px 5px #999;
+        }
+
+        .titel {
+            margin-top: 10%;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 500;
+            text-align: start;
+            padding-left: 15px;
+        }
+
+        i {
+            position: absolute;
+            top: -35px;
+            color: #f81f01;
+            width: 55px;
+            height: 55px;
+            font-size: 28px;
+            text-align: center;
+            padding-top: 15px;
+            border-radius: 60%;
+            background: #fff;
+            box-shadow: 1px 1px 3px #999;
+        }
+
+        .card:hover i {
+            background: #fd4766;
+            color: #fff;
+        }
+
+    }
+
+    .contactform-row {
+        padding-top: 10%;
+        max-width: 100%;
+        max-height: 100%;
+
+        .contactform {
+            padding: 10PX;
+
+        }
+
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 450;
+        }
+
+        .input {
+            padding: 12px;
+
+        }
+
+        .contactform-img img {
+            max-width: 100%;
+            max-height:100%;
+            border-radius: 10px;
+            margin-top: 25px;
+            margin-left: 30px;
         }
 
     }

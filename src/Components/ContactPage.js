@@ -9,7 +9,7 @@ import ContactForm from "./ContactForm ";
 import './ContactForm.scss'
 
 
-
+   
 function Contactpage() {
     const location = useLocation(); // Get the current location object
 
@@ -17,7 +17,7 @@ function Contactpage() {
         window.scrollTo(0, 0); // Scroll to the top when the component renders or location changes
     }, [location]);
     return (
-        <Container  style={{maxWidth: '1550px'}}  >
+        <Container  style={{maxWidth: '1520px'}}  >
             <Row>
                 <Col sm={12} md={12} lg={12}>
                     <div className="contactpage">
@@ -32,7 +32,7 @@ function Contactpage() {
                 </Col>
             </Row>
             <Row className="contbox ">
-            <Col sm={4} md={6} lg={4}>
+            <Col sm={4} md={4} lg={4}>
                     <Card style={{ width: '23rem', height: '28vh' }} className="card">
                         <Card.Body>
                             <Card.Title className="titel" >With  phone Number</Card.Title>
@@ -45,7 +45,7 @@ function Contactpage() {
                     </Card>
 
                 </Col>             
-                   <Col sm={4} md={6} lg={4}>
+                   <Col sm={4} md={4} lg={4}>
                     <Card style={{ width: '23rem', height: '28vh' }} className="card">
                         <Card.Body>
                             <Card.Title className="titel" >Email Address</Card.Title>
@@ -57,7 +57,7 @@ function Contactpage() {
                     </Card>
 
                 </Col>
-                <Col sm={4} md={6} lg={4}>
+                <Col sm={4} md={4} lg={4}>
                     <Card style={{ width: '23rem', height: '28vh' }} className="card">
                         <Card.Body>
                             <Card.Title className="titel" >Loction</Card.Title>
@@ -73,7 +73,7 @@ function Contactpage() {
 
                 </Col>            </Row>
             <Row className="contactform-row">
-                <Col sm={6} md={6} lg={6}>
+                <Col sm={6} md={12} lg={6}>
                     <div className="contactform">
                         <h2>Contact Us.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate aperiam neque.</p>

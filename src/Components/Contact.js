@@ -8,17 +8,17 @@ function Contact() {
     <Container   style={{maxWidth: '1545px'}}  className="contact-container">
       <h1 className="contact-h1" id="Contact">Contact</h1>
       <Row>
-        <Col sm={12} md={12} lg={6} className="contact">
+        <Col sm={12} md={6} lg={6} className="contact">
           <h3 className="cont-h3">READY TO THIS</h3>
           <h1 className="cont-h1">Let's get<br></br>to work</h1>
 
           {/* Use Link to navigate to the ContactPage */}
           <Link to="/contactpage">
             <button className="cont-btn">CONTACT US</button>
-          </Link>
+          </Link>   
 
         </Col>
-        <Col sm={12} md={12} lg={6} className="foodter">
+        <Col sm={12} md={6} lg={6} className="foodter">
           <div className="foodlist">
             <ul type="none" className="list1">
               <li><b><u>Quick Line</u></b></li>
