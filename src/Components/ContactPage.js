@@ -73,7 +73,7 @@ function Contactpage() {
 
                 </Col>            </Row>
             <Row className="contactform-row">
-                <Col sm={6} md={12} lg={6}>
+                <Col sm={6} md={6} lg={6}>
                     <div className="contactform">
                         <h2>Contact Us.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate aperiam neque.</p>
@@ -82,7 +82,7 @@ function Contactpage() {
                        
                 </Col>
                 <Col sm={6} md={6} lg={6} className="contactform-img">
-                    <img src={contcall}  alt="Contact call"fluid />
+                    <img src={contcall}  alt="Contact call" />
 
                 </Col>
             </Row>

@@ -164,7 +164,7 @@
 
         h1 {
             position: absolute;
-            top: 35%;
+            top: 30%;
             left: 8%;
             font-size: 5rem;
             overflow: hidden;
@@ -190,16 +190,13 @@
     }
 
     .contbox {
-        padding-left: 25px;
-
          max-width: 100%;
         position: relative;
-        margin-top: 50px;
 
         .card {
             max-width: 100%;
             max-height: fit-content;
-            margin-top: 55px;
+            margin-top: 50px;
 
             border: none;
             box-shadow: 2px 2px 5px #999;
@@ -214,19 +211,18 @@
         p {
             font-size: 18px;
             font-weight: 500;
-            text-align: start;
-            padding-left: 15px;
+            text-align: center;
         }
 
         i {
             position: absolute;
-            top: -35px;
+            top: -24px;
             color: #f81f01;
-            width: 50px;
-            height: 50px;
-            font-size: 25px;
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
             text-align: center;
-            padding-top: 22px;
+            padding-top: 12px;
             border-radius: 50%;
             background: #fff;
             box-shadow: 1px 1px 3px #999;
@@ -240,14 +236,7 @@
     }
 
     .contactform-row {
-        padding-top: 10%;
-        max-width: fit-content;
-        max-height: fit-content;
-
-        .contactform {
-            padding: 10PX;
-
-        }
+        padding-top: 5%;
 
 
         h2 {
@@ -284,7 +273,7 @@
     .contactpage {
 
         max-width: 100%;
-        max-height: 100vh;
+        max-height: 70vh;
         overflow: hidden;
         position: relative;
 
@@ -301,7 +290,7 @@
         h2 {
             position: absolute;
             top: 25%;
-            left: 25%;
+            left: 35%;
             font-size: 25px;
             font-weight: 400;
             color: #fff;
@@ -325,7 +314,7 @@
 
         h4 {
             position: absolute;
-            top: 68%;
+            top: 60%;
             left: 5%;
             font-size: 22px;
             color: #fff;
@@ -336,21 +325,18 @@
     }
 
     .contbox {
-        padding-left: 25px;
         position: relative;
-        margin-top: 50px;
 
         .card {
             max-width: 100%;
             max-height: 100%;
-            margin-top: 55px;
-
+            margin-top: 50px;
             border: none;
             box-shadow: 2px 2px 5px #999;
         }
 
         .titel {
-            margin-top: 10%;
+            margin-top: 6%;
             font-size: 20px;
             font-weight: bold;
             text-align: center;
@@ -385,7 +371,6 @@
     }
 
     .contactform-row {
-        padding-top: 10%;
         max-width: 100%;
         max-height: 100%;
 
@@ -407,7 +392,7 @@
         }
 
         .input {
-            padding: 12px;
+            // padding: 12px;
 
         }
 
