@@ -22,7 +22,7 @@ function Contactpage() {
                 <Col sm={12} md={12} lg={12}>
                     <div className="contactpage">
                         <div className="cont-img">
-                            <img src={contactpage} alt="Contactpage" fluid />
+                            <img src={contactpage} alt="Contactpage" />
                         </div>
                         <h2>W E L C O M E</h2>
                         <h1>Contact With Us</h1>
@@ -35,7 +35,7 @@ function Contactpage() {
             <Col sm={4} md={4} lg={4}>
                     <Card style={{ width: '23rem', height: '28vh' }} className="card">
                         <Card.Body>
-                            <Card.Title className="titel" >With  phone Number</Card.Title>
+                            <Card.Title className="titel" >  phone Number</Card.Title>
                             <Card.Text>
                                 <p>+91  9626295154</p>
                                 <p>044 -2526237</p>

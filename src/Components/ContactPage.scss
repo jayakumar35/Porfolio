@@ -133,21 +133,22 @@
 
 // <----media Size Mobile ----->
 
-@media (min-width:320px) and (max-width:426px) {
+@media (min-width:320px) and (max-width:426px) { 
 
     .contactpage {
-
         max-width:100%;
-        max-height: fit-content;
+        max-height:80vh ;
         overflow: hidden;
         position: relative;
 
         .cont-img {
-            filter: brightness(25%);
+            filter: brightness(50%);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             text-align: center;
+            max-width: 100%;
+
 
         }
 
@@ -191,14 +192,12 @@
     .contbox {
         padding-left: 25px;
 
-        width: 100px;
+         max-width: 100%;
         position: relative;
-        max-width: max-content;
-        max-height: max-content;
         margin-top: 50px;
 
         .card {
-            max-width: max-content;
+            max-width: 100%;
             max-height: fit-content;
             margin-top: 55px;
 
@@ -221,14 +220,14 @@
 
         i {
             position: absolute;
-            top: -40px;
+            top: -35px;
             color: #f81f01;
-            width: 75px;
-            height: 75px;
-            font-size: 28px;
+            width: 50px;
+            height: 50px;
+            font-size: 25px;
             text-align: center;
             padding-top: 22px;
-            border-radius: 60%;
+            border-radius: 50%;
             background: #fff;
             box-shadow: 1px 1px 3px #999;
         }
@@ -272,7 +271,6 @@
             max-height: fit-content;
             border-radius: 10px;
             margin-top: 25px;
-            margin-left: 35px;
         }
 
     }
