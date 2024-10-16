@@ -1,6 +1,6 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import './Ourworkpage.scss';
-import Ourimage from '../image/Ourwork.jpg';
+import Ourimage from '../image/homebg.jpg';
 import Weatherimage from '../image/project/Weather.jpg'
 import Bmiimage from '../image/project/Bmi.jpg'
 import Todoimage from '../image/project/Todolist.jpg'
