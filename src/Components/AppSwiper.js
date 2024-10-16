@@ -36,7 +36,7 @@ export default function AppSwiper() {
             <Swiper
               onSwiper={(swiper) => (swiperRef.current = swiper)} // Save the Swiper instance in ref
               slidesPerView={3}
-              freeMode={true}
+              freeMode={true} 
               spaceBetween={30}
               pagination={{
                 type: 'fraction',

@@ -38,7 +38,7 @@ function LeftTabsExample() {
                                 <p>i like to move it move it, ...</p>
                             </div>
                             <div className='div-pone '>
-                                <h4>Mpbile App -Development</h4>
+                                <h4>Mobile App -Development</h4>
                                 <p>Deilght the user and make it work, ...</p>
                             </div>
 
