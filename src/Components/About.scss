@@ -1,4 +1,4 @@
-// ----Media Size Leptop ----//
+// <----Media Size Leptop ---->
 @media (min-width:1024px) {
 
     .about-container {
@@ -68,7 +68,7 @@
     }
 }
 
-// -----------------------media Size  Mobile------/
+// <----media Size  Mobile ---->
 @media (min-width:320px) and (max-width:426px) {
     .about-container {
         background: #f8ffff;
@@ -78,7 +78,6 @@
             max-width: 100%;
             max-height: 50vh;
             border-radius: 10px;
-            margin-left: 10%;
 
         }
 
