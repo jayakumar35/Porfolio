@@ -32,10 +32,10 @@ function Ourworkpage() {
                 </Col>
             </Row>
             <Row>
-                <Col sm={6} md={4} lg={4} className="">
+                <Col sm={4} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
-                        <Card style={{ width: '22rem', height: '70vh' }} className="box">
+                        <Card style={{ width: '22rem', height: '50vh' }} className="box">
                             <Card.Img variant="top" src={Weatherimage} fluid className="box-img" />
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
@@ -48,10 +48,10 @@ function Ourworkpage() {
                         </Card>
                     </div>
                 </Col>
-                <Col sm={6} md={4} lg={4} className="">
+                <Col sm={4} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
-                        <Card style={{ width: '22rem', height: '70vh' }} className="box">
+                        <Card style={{ width: '22rem', height: '50vh' }} className="box">
                             <Card.Img variant="top" src={Bmiimage} fluid className="box-img" />
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
@@ -64,10 +64,10 @@ function Ourworkpage() {
                         </Card>
                     </div>
                 </Col>
-                <Col sm={6} md={4} lg={4} className="">
+                <Col sm={4} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
-                        <Card style={{ width: '22rem', height: '70vh' }} className="box">
+                        <Card style={{ width: '22rem', height: '50vh' }} className="box">
                             <Card.Img variant="top" src={Todoimage} fluid className="box-img" />
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
@@ -83,10 +83,10 @@ function Ourworkpage() {
 
             </Row>
             <Row>
-                <Col sm={6} md={4} lg={4} className="">
+                <Col sm={4} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
-                        <Card style={{ width: '22rem', height: '70vh' }} className="box">
+                        <Card style={{ width: '22rem', height: '50vh' }} className="box">
                             <Card.Img variant="top" src={Weatherimage} fluid className="box-img" />
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
@@ -99,10 +99,10 @@ function Ourworkpage() {
                         </Card>
                     </div>
                 </Col>
-                <Col sm={6} md={4} lg={4} className="">
+                <Col sm={4} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
-                        <Card style={{ width: '22rem', height: '70vh' }} className="box">
+                        <Card style={{ width: '22rem', height: '50vh' }} className="box">
                             <Card.Img variant="top" src={Bmiimage} fluid className="box-img" />
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
@@ -115,10 +115,10 @@ function Ourworkpage() {
                         </Card>
                     </div>
                 </Col>
-                <Col sm={6} md={4} lg={4} className="">
+                <Col sm={4} md={4} lg={4} className="">
                     <div className="project-card d-flex">
 
-                        <Card style={{ width: '22rem', height: '70vh' }} className="box">
+                        <Card style={{ width: '22rem', height: '50vh' }} className="box">
                             <Card.Img variant="top" src={Todoimage} fluid className="box-img" />
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
