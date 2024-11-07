@@ -40,7 +40,7 @@ function LeftTabsExample() {
                             <div className='div-pone '>
                                 <h4>Mobile App -Development</h4>
                                 <p>Deilght the user and make it work, ...</p>
-                            </div>
+                            </div>   
 
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">

@@ -14,7 +14,7 @@ function NavScrollExample() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="navlist my- my-lg-0 "
+            className="navlist  my-lg-0 "
             style={{ maxHeight: '100px' }}
             navbarScroll
           >

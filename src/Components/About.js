@@ -7,6 +7,7 @@ import Instagramimage from '../image/instagram.png'
 import Xtwitterimage from '../image/twitter.png'
 import Youtubeimage from '../image/youtube-white-logo.png'
 import Facebookimage from '../image/facebook.png'
+import resume from '../image/cv.pdf'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -27,6 +28,8 @@ function About() {
             <h1 >About Me</h1>
             <p><b>Hello! I'm Jayakumar</b> web designer from TamilNadu,Tiruvannamala i have rich experience in web site desing and building
               also i am good at wordpress i love to talk with you about our unique</p>
+
+             <a download href={resume} > <button className="cv-button"  >Resume</button></a>
 
 
             <div class="social-media">
