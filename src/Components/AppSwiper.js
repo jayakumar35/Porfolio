@@ -20,8 +20,10 @@ import { Link } from "react-router-dom";
 
 
 import Weatherimage from '../image/project/Weather.jpg'
-import Bmiimage from '../image/project/Bmi.jpg'
+import Bmiimage from '../image/project/bmi.jpg'
 import Todoimage from '../image/project/Todolist.jpg'
+ import coffeeshopimage from '../image/project/CoffeeShop.jpg'
+
 
 
 export default function AppSwiper() {
@@ -47,11 +49,11 @@ export default function AppSwiper() {
             >
               <SwiperSlide>
                 <Card style={{ width: '22rem', height: '70vh' }} className="box">
-                  <Card.Img variant="top" src={Weatherimage} fluid className="box-img" />
+                  <Card.Img variant="top" src={coffeeshopimage} fluid className="box-img" />
                   <Card.Body className="card-body">
                     <Card.Text className="overlay">
-                      <Card.Title className="h3">Weather</Card.Title>
-                      <a href="https://devjai-weather.netlify.app">Check Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <Card.Title className="h3">Coffee Shop</Card.Title>
+                      <a href="https://devjai-coffee-shop.netlify.app/">Check Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                       <p>Some quick example text to build on the card title and make up the
                         bulk of the card's content.</p>
                     </Card.Text>
@@ -87,11 +89,11 @@ export default function AppSwiper() {
               </SwiperSlide>
               <SwiperSlide>
                 <Card style={{ width: '22rem', height: '70vh' }} className="box">
-                  <Card.Img variant="top" src={Todoimage} fluid className="box-img" />
+                  <Card.Img variant="top" src={Weatherimage} fluid className="box-img" />
                   <Card.Body className="card-body">
                     <Card.Text className="overlay">
-                      <Card.Title className="h3">TodoList</Card.Title>
-                      <a href="https://devjai-todolist.netlify.app">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <Card.Title className="h3">Weather</Card.Title>
+                      <a href="https://devjai-weather.netlify.app/">Ckeck Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                       <p>Some quick example text to build on the card title and make up the
                         bulk of the card's content.</p>
                     </Card.Text>

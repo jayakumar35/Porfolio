@@ -18,20 +18,15 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link className='3' href="#Home">Home</Nav.Link>
-            <Nav.Link className='3' href="#About">About</Nav.Link>
-            <Nav.Link className='3' href="#Project">Project</Nav.Link>
-            <Nav.Link className='3' href="#Contact">Contact</Nav.Link>
+            <Nav.Link className='navlink' href="#Home">Home</Nav.Link>
+            <Nav.Link className='navlink' href="#About">About</Nav.Link>
+            <Nav.Link className='navlink' href="#Project">Project</Nav.Link>
+            <Nav.Link className='navlink' href="#Contact">Contact</Nav.Link>
 
           </Nav>
 
         </Navbar.Collapse>
-        <div className="conticon">
-          <i className="fa-brands fa-facebook"></i>
-          <i className="fa-brands fa-linkedin"></i>
-          <i className="fa-brands fa-instagram"></i>
-          <i className="fa-brands fa-x-twitter"></i>
-        </div>
+      
         <Link to="/contactpage">
           <button className="cont-btn">CONTACT US</button>
         </Link>

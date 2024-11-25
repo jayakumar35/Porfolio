@@ -2,7 +2,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import './Ourworkpage.scss';
 import Ourimage from '../image/homebg.jpg';
 import Weatherimage from '../image/project/Weather.jpg'
-import Bmiimage from '../image/project/Bmi.jpg'
+import Bmiimage from '../image/project/bmi.jpg'
 import Todoimage from '../image/project/Todolist.jpg'
 import Contact from "./Contact";
 import { useEffect } from 'react';
