@@ -2,7 +2,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import './Ourworkpage.scss';
 import Ourimage from '../image/homebg.jpg';
 import Weatherimage from '../image/project/Weather.jpg'
-import Bmiimage from '../image/project/bmi.jpg'
+import bmiImage from '../image/project/bmi.jpg';
 import Todoimage from '../image/project/Todolist.jpg'
 import Contact from "./Contact";
 import { useEffect } from 'react';
@@ -52,7 +52,7 @@ function Ourworkpage() {
                     <div className="project-card d-flex">
 
                         <Card style={{ width: '22rem', height: '50vh' }} className="box">
-                            <Card.Img variant="top" src={Bmiimage} fluid className="box-img" />
+                            <Card.Img variant="top" src={bmiImage} fluid className="box-img" />
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
                                     <Card.Title className="h3">Bmi Calcution</Card.Title>
@@ -103,7 +103,7 @@ function Ourworkpage() {
                     <div className="project-card d-flex">
 
                         <Card style={{ width: '22rem', height: '50vh' }} className="box">
-                            <Card.Img variant="top" src={Bmiimage} fluid className="box-img" />
+                            <Card.Img variant="top" src={bmiImage} fluid className="box-img" />
                             <Card.Body className="card-body">
                                 <Card.Text className="overlay">
                                     <Card.Title className="h3">Bmi Calcution</Card.Title>

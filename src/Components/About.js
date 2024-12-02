@@ -1,6 +1,6 @@
 import React from "react";
 import './About.scss';
-import Aboutimage from '../image/about1.JPG'
+import Aboutimage from '../image/about1.jpg'
 import Githupimage from '../image/github.png'
 import Linkedinimage from '../image/linkedin.png'
 import Instagramimage from '../image/instagram.png'

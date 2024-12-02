@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 
 
 import Weatherimage from '../image/project/Weather.jpg'
-import Bmiimage from '../image/project/bmi.jpg'
+import bmiImage from '../image/project/bmi.jpg';
 import Todoimage from '../image/project/Todolist.jpg'
  import coffeeshopimage from '../image/project/CoffeeShop.jpg'
 
@@ -62,7 +62,7 @@ export default function AppSwiper() {
               </SwiperSlide>
               <SwiperSlide>
                 <Card style={{ width: '22rem', height: '70vh' }} className="box">
-                  <Card.Img variant="top" src={Bmiimage} fluid className="box-img" />
+                  <Card.Img variant="top" src={bmiImage} fluid className="box-img" />
                   <Card.Body className="card-body">
                     <Card.Text className="overlay">
                       <Card.Title className="h3">Bmi Calcution</Card.Title>
