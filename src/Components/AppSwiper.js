@@ -22,7 +22,7 @@ import { Link } from "react-router-dom";
 import Weatherimage from '../image/project/Weather.jpg'
 import Bmiimage from '../image/project/bmi.webp'
 import Todoimage from '../image/project/Todolist.jpg'
- import coffeeshopimage from '../image/project/CoffeeShop.jpg'
+import coffeeshopimage from '../image/project/CoffeeShop.jpg'
 
 
 
@@ -38,15 +38,30 @@ export default function AppSwiper() {
             <Swiper
               onSwiper={(swiper) => (swiperRef.current = swiper)} // Save the Swiper instance in ref
               slidesPerView={3}
-              freeMode={true} 
+              freeMode={true}
               spaceBetween={30}
               pagination={{
                 type: 'fraction',
-              }} 
+              }}
               navigation={true}
               modules={[Pagination, Navigation]}
               className="mySwiper"
-            >
+            
+              breakpoints={{
+                // When the viewport width is 640px or smaller
+                469: {
+                  slidesPerView: 1, // Show 1 slide for mobile
+                },
+                // When the viewport width is between 641px and 1024px
+                768: {
+                  slidesPerView: 2, // Show 2 slides for tablet
+                },
+                // When the viewport width is larger than 1024px
+                1024: {
+                  slidesPerView: 3, // Show 3 slides for laptop/desktop
+                },
+              }}
+              >
               <SwiperSlide>
                 <Card style={{ width: '22rem', height: '70vh' }} className="box">
                   <Card.Img variant="top" src={coffeeshopimage} fluid className="box-img" />
