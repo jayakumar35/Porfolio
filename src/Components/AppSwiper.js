@@ -49,7 +49,7 @@ export default function AppSwiper() {
             
               breakpoints={{
                 // When the viewport width is 640px or smaller
-                469: {
+                320: {
                   slidesPerView: 1, // Show 1 slide for mobile
                 },
                 // When the viewport width is between 641px and 1024px
