@@ -54,7 +54,7 @@ function LeftTabsExample() {
                            
                             <div className='div-pone '>
                                 <h4>Edex IT Solution - Full stact developer</h4>
-                                <p>presant, ...</p>
+                                <p>Mar - 2024  Dec - 2024  </p>
                             </div>
                             <div className='div-pone '>
                                 <h4>Diploma in  Mechanical Engineering</h4>
@@ -64,7 +64,7 @@ function LeftTabsExample() {
                         <Tab.Pane eventKey="four">
                             <div className='div-pone '>
                                 <h4>Sr.front-end developer -Edex</h4>
-                                <p>March-24, ...</p>
+                                <p>Mar-24, Dec-24</p>
                             </div>
                         </Tab.Pane>
                     </Tab.Content>
