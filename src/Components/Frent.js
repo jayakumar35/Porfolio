@@ -15,7 +15,7 @@ function Frent() {
                 <Col sm={12} md={8} lg={8} className="frent-Col">
 
                     <div className="page">
-                        <h2>FREELANCE <span className="span">FULL STOCK DEVELOPER</span></h2>
+                        <h2>FREELANCE <span className="span">FULL STACK DEVELOPER</span></h2>
                         <h1>Hello, i'm <span>Jayakumar</span> Welcome to my World</h1>
                     </div>
 
